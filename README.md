@@ -89,10 +89,19 @@ No re-explaining. No re-prioritizing from scratch. Just the next decision.
 
 This skill is for [Claude Code](https://claude.ai/code). Install it once and it's available across all your projects:
 
+### As a plugin (recommended)
+
+```
+/plugin marketplace add code-katz/claude-plugins
+/plugin install claude-roadmap@code-katz
+```
+
+### Manual install
+
 ```bash
 mkdir -p ~/.claude/skills/roadmap
 curl -o ~/.claude/skills/roadmap/SKILL.md \
-  https://raw.githubusercontent.com/code-katz/claude-roadmap-skill/main/SKILL.md
+  https://raw.githubusercontent.com/code-katz/claude-roadmap-skill/main/skills/roadmap/SKILL.md
 ```
 
 ---

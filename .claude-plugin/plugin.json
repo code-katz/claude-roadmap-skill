@@ -1,0 +1,6 @@
+{
+  "name": "claude-roadmap",
+  "description": "Living product roadmap (ROADMAP.md) with tiered priorities and an append-only revision history: every priority call, deferral, and reprioritization recorded with its reasoning.",
+  "version": "0.2.0",
+  "author": { "name": "Code Katz" }
+}
